@@ -4,6 +4,8 @@
 // const API_URL = "http://localhost:4000";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "");
+console.log("API_URL LOADED:", API_URL);
+
 
 console.log("API URL =>", API_URL);
 
